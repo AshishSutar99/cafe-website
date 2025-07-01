@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #6b4f4f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.item-count {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+
+/* Tab Buttons */
+.tabs {
+  margin-top: 15px;
+}
+
+.tab-button {
+  background-color: #d8c3a5;
+  border: none;
+  color: #333;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #e0b089;
+}
+
+/* Main Content Area */
+main {
+  padding: 20px;
+}
+
+/* Tab Content */
+.tab-content {
+  display: none;
+  padding: 20px;
+  background-color: #f5f0eb;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.tab-content:not(.hidden) {
+  display: block;
+}
+
+/* Menu Item Styling */
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.menu-item button {
+  background-color: #6b4f4f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-item button:hover {
+  background-color: #5a3f3f;
+}
+
+/* Order List */
+#order-list {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+#order-list li {
+  margin: 5px 0;
+}
+
+/* Clear Order Button */
+#orders button {
+  margin-top: 10px;
+  background-color: #a9746e;
+}
+
+/* Inventory and Sales Styling */
+#inventory-list {
+  list-style-type: square;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#sales p {
+  margin: 10px 0;
+}
+
+/* Settings Section */
+#settings label {
+  display: block;
+  margin: 10px 0;
+}
+
+#settings input {
+  padding: 6px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Home Section */
+#home h2 {
+  color: #6b4f4f;
+  margin-bottom: 10px;
+}
+
+#home p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
